@@ -53,8 +53,8 @@ html { box-sizing: border-box; }
     background-image: linear-gradient( to bottom , #06d7c1 , #50cc49);
     flex-shrink: 0;
     flex-grow: 1;
-    padding: 30px;
-    margin-right: 30px;
+    padding: 40px;
+    margin-right: 20px;
     
     
 }
@@ -118,22 +118,45 @@ h2 {
     list-style: none;
     display: flex;
     font-size: 18px;
+    
     }
 .tabulka li {
      text-align: left;
      margin-inline: 10px;
     
+    
 }
 .tabulka .cislo {
-    
-    display: inline-block;
+    padding: 5px;
+    margin-top:-5px;
+    display: flex;
+    flex-basis: 0;
+    flex-shrink: 0;
+    flex-grow: 0;
+    position: relative;
     border-radius: 100%;
     border-color: #f15f42;
     border-width: 1px;
     border-style: solid;
     color: #f15f42;
-    
-    
-    
+    }
+    .button {
+        display: flex;
+        text-align: center;
 
-}
+    }
+    .button a {
+        background-color: #f15f42;
+        text-decoration: none;
+        color:white;
+        text-transform: uppercase;
+        display: block;
+        width: 120px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 10px; 
+        margin-top:5px;
+        
+    
+    }
